@@ -1,0 +1,23 @@
+artifact_path: file:C:/Users/T490S/mlops-training/mlruns/2/models/m-e6140b18133344899a2900d3ebb61334/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.13.0
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: pickle
+    sklearn_version: 1.9.1
+    skops_trusted_types: null
+mlflow_version: 3.16.1
+model_id: m-e6140b18133344899a2900d3ebb61334
+model_size_bytes: 17226875
+model_uuid: m-e6140b18133344899a2900d3ebb61334
+prompts: null
+run_id: 4f2cdd59083944a3aa411b2544a0da1a
+utc_time_created: '2026-09-30 06:26:24.727900'
